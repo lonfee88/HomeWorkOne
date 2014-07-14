@@ -58,7 +58,7 @@ CGFloat RunDelegateGetWidthCallback(void *refCon){
     CGAffineTransform flipVertical = CGAffineTransformMake(1,0,0,-1,0,self.bounds.size.height);
     CGContextConcatCTM(context, flipVertical);
     
-    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:@"测试富文本显示"] ;
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:@"淘宝网淘我喜欢"] ;
     
     //为所有文本设置字体
     //[attributedString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:24] range:NSMakeRange(0, [attributedString length])]; // 6.0+
@@ -67,13 +67,13 @@ CGFloat RunDelegateGetWidthCallback(void *refCon){
     [attributedString addAttribute:(NSString *)kCTFontAttributeName value:(__bridge id)fontRef range:NSMakeRange(0, [attributedString length])];
     CFRelease(fontRef);
     
-    //将“测试”两字字体颜色设置为蓝色
+    //将“淘宝网”三字字体颜色设置为蓝色
     //[attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor blueColor] range:NSMakeRange(0, 2)]; //6.0+
-    [attributedString addAttribute:(NSString *)kCTForegroundColorAttributeName value:(id)[UIColor blueColor].CGColor range:NSMakeRange(0, 2)];
+    [attributedString addAttribute:(NSString *)kCTForegroundColorAttributeName value:(id)[UIColor blueColor].CGColor range:NSMakeRange(0, 3)];
     
-    //将“富文本”三个字字体颜色设置为红色
+    //将“淘”一个字字体颜色设置为红色
     //[attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(2, 3)]; //6.0+
-    [attributedString addAttribute:(NSString *)kCTForegroundColorAttributeName value:(id)[UIColor redColor].CGColor range:NSMakeRange(2, 3)];
+    [attributedString addAttribute:(NSString *)kCTForegroundColorAttributeName value:(id)[UIColor redColor].CGColor range:NSMakeRange(3, 1)];
     
     
     //为图片设置CTRunDelegate,delegate决定留给图片的空间大小
