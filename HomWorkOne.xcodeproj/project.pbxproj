@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B8E258519736D9500F99D51 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8E258419736D9500F99D51 /* CoreText.framework */; };
+		9B8E2588197370D200F99D51 /* MXCTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E2587197370D200F99D51 /* MXCTView.m */; };
+		9B8E258A197372D700F99D51 /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8E2589197372D700F99D51 /* taobao.png */; };
 		9BE7AE9D197274D700644E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE7AE9C197274D700644E33 /* Foundation.framework */; };
 		9BE7AE9F197274D700644E33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE7AE9E197274D700644E33 /* CoreGraphics.framework */; };
 		9BE7AEA1197274D700644E33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE7AEA0197274D700644E33 /* UIKit.framework */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B8E258419736D9500F99D51 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		9B8E2586197370D200F99D51 /* MXCTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXCTView.h; sourceTree = "<group>"; };
+		9B8E2587197370D200F99D51 /* MXCTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXCTView.m; sourceTree = "<group>"; };
+		9B8E2589197372D700F99D51 /* taobao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = taobao.png; path = "../../CTTest-master/coreText/coreText/taobao.png"; sourceTree = "<group>"; };
 		9BE7AE99197274D700644E33 /* HomWorkOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomWorkOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE7AE9C197274D700644E33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BE7AE9E197274D700644E33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8E258519736D9500F99D51 /* CoreText.framework in Frameworks */,
 				9BE7AE9F197274D700644E33 /* CoreGraphics.framework in Frameworks */,
 				9BE7AEA1197274D700644E33 /* UIKit.framework in Frameworks */,
 				9BE7AE9D197274D700644E33 /* Foundation.framework in Frameworks */,
@@ -107,6 +115,7 @@
 		9BE7AE9B197274D700644E33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B8E258419736D9500F99D51 /* CoreText.framework */,
 				9BE7AE9C197274D700644E33 /* Foundation.framework */,
 				9BE7AE9E197274D700644E33 /* CoreGraphics.framework */,
 				9BE7AEA0197274D700644E33 /* UIKit.framework */,
@@ -128,6 +137,8 @@
 				9BE7AEB2197274D700644E33 /* MXFirstViewController.m */,
 				9BE7AEB4197274D700644E33 /* MXSecondViewController.h */,
 				9BE7AEB5197274D700644E33 /* MXSecondViewController.m */,
+				9B8E2586197370D200F99D51 /* MXCTView.h */,
+				9B8E2587197370D200F99D51 /* MXCTView.m */,
 				9BE7AEA3197274D700644E33 /* Supporting Files */,
 			);
 			path = HomWorkOne;
@@ -136,6 +147,7 @@
 		9BE7AEA3197274D700644E33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9B8E2589197372D700F99D51 /* taobao.png */,
 				9BE7AEA4197274D700644E33 /* HomWorkOne-Info.plist */,
 				9BE7AEA5197274D700644E33 /* InfoPlist.strings */,
 				9BE7AEA8197274D700644E33 /* main.m */,
@@ -242,6 +254,7 @@
 				9BE7AEB8197274D700644E33 /* Images.xcassets in Resources */,
 				9BE7AEA7197274D700644E33 /* InfoPlist.strings in Resources */,
 				9BE7AEB0197274D700644E33 /* Main.storyboard in Resources */,
+				9B8E258A197372D700F99D51 /* taobao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +277,7 @@
 				9BE7AED61972B3D000644E33 /* MXFifthViewController.m in Sources */,
 				9BE7AEB3197274D700644E33 /* MXFirstViewController.m in Sources */,
 				9BE7AEAD197274D700644E33 /* MXAppDelegate.m in Sources */,
+				9B8E2588197370D200F99D51 /* MXCTView.m in Sources */,
 				9BE7AEB6197274D700644E33 /* MXSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +483,7 @@
 				9BE7AED0197274D700644E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BE7AED1197274D700644E33 /* Build configuration list for PBXNativeTarget "HomWorkOneTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +492,7 @@
 				9BE7AED3197274D700644E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
