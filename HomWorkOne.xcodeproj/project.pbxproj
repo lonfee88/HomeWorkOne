@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BE7AE9D197274D700644E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE7AE9C197274D700644E33 /* Foundation.framework */; };
+		9BE7AE9F197274D700644E33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE7AE9E197274D700644E33 /* CoreGraphics.framework */; };
+		9BE7AEA1197274D700644E33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE7AEA0197274D700644E33 /* UIKit.framework */; };
+		9BE7AEA7197274D700644E33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BE7AEA5197274D700644E33 /* InfoPlist.strings */; };
+		9BE7AEA9197274D700644E33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7AEA8197274D700644E33 /* main.m */; };
+		9BE7AEAD197274D700644E33 /* MXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7AEAC197274D700644E33 /* MXAppDelegate.m */; };
+		9BE7AEB0197274D700644E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE7AEAE197274D700644E33 /* Main.storyboard */; };
+		9BE7AEB3197274D700644E33 /* MXFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7AEB2197274D700644E33 /* MXFirstViewController.m */; };
+		9BE7AEB6197274D700644E33 /* MXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7AEB5197274D700644E33 /* MXSecondViewController.m */; };
+		9BE7AEB8197274D700644E33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE7AEB7197274D700644E33 /* Images.xcassets */; };
+		9BE7AEBF197274D700644E33 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE7AEBE197274D700644E33 /* XCTest.framework */; };
+		9BE7AEC0197274D700644E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE7AE9C197274D700644E33 /* Foundation.framework */; };
+		9BE7AEC1197274D700644E33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE7AEA0197274D700644E33 /* UIKit.framework */; };
+		9BE7AEC9197274D700644E33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BE7AEC7197274D700644E33 /* InfoPlist.strings */; };
+		9BE7AECB197274D700644E33 /* HomWorkOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7AECA197274D700644E33 /* HomWorkOneTests.m */; };
+		9BE7AED61972B3D000644E33 /* MXFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7AED51972B3D000644E33 /* MXFifthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BE7AEC2197274D700644E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE7AE91197274D700644E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE7AE98197274D700644E33;
+			remoteInfo = HomWorkOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BE7AE99197274D700644E33 /* HomWorkOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomWorkOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE7AE9C197274D700644E33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BE7AE9E197274D700644E33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BE7AEA0197274D700644E33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BE7AEA4197274D700644E33 /* HomWorkOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomWorkOne-Info.plist"; sourceTree = "<group>"; };
+		9BE7AEA6197274D700644E33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BE7AEA8197274D700644E33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BE7AEAA197274D700644E33 /* HomWorkOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomWorkOne-Prefix.pch"; sourceTree = "<group>"; };
+		9BE7AEAB197274D700644E33 /* MXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXAppDelegate.h; sourceTree = "<group>"; };
+		9BE7AEAC197274D700644E33 /* MXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXAppDelegate.m; sourceTree = "<group>"; };
+		9BE7AEAF197274D700644E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE7AEB1197274D700644E33 /* MXFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXFirstViewController.h; sourceTree = "<group>"; };
+		9BE7AEB2197274D700644E33 /* MXFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXFirstViewController.m; sourceTree = "<group>"; };
+		9BE7AEB4197274D700644E33 /* MXSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXSecondViewController.h; sourceTree = "<group>"; };
+		9BE7AEB5197274D700644E33 /* MXSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXSecondViewController.m; sourceTree = "<group>"; };
+		9BE7AEB7197274D700644E33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9BE7AEBD197274D700644E33 /* HomWorkOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomWorkOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE7AEBE197274D700644E33 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9BE7AEC6197274D700644E33 /* HomWorkOneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomWorkOneTests-Info.plist"; sourceTree = "<group>"; };
+		9BE7AEC8197274D700644E33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BE7AECA197274D700644E33 /* HomWorkOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomWorkOneTests.m; sourceTree = "<group>"; };
+		9BE7AED41972B3D000644E33 /* MXFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXFifthViewController.h; sourceTree = "<group>"; };
+		9BE7AED51972B3D000644E33 /* MXFifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXFifthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE7AE96197274D700644E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7AE9F197274D700644E33 /* CoreGraphics.framework in Frameworks */,
+				9BE7AEA1197274D700644E33 /* UIKit.framework in Frameworks */,
+				9BE7AE9D197274D700644E33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE7AEBA197274D700644E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7AEBF197274D700644E33 /* XCTest.framework in Frameworks */,
+				9BE7AEC1197274D700644E33 /* UIKit.framework in Frameworks */,
+				9BE7AEC0197274D700644E33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BE7AE90197274D700644E33 = {
+			isa = PBXGroup;
+			children = (
+				9BE7AEA2197274D700644E33 /* HomWorkOne */,
+				9BE7AEC4197274D700644E33 /* HomWorkOneTests */,
+				9BE7AE9B197274D700644E33 /* Frameworks */,
+				9BE7AE9A197274D700644E33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE7AE9A197274D700644E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7AE99197274D700644E33 /* HomWorkOne.app */,
+				9BE7AEBD197274D700644E33 /* HomWorkOneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BE7AE9B197274D700644E33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7AE9C197274D700644E33 /* Foundation.framework */,
+				9BE7AE9E197274D700644E33 /* CoreGraphics.framework */,
+				9BE7AEA0197274D700644E33 /* UIKit.framework */,
+				9BE7AEBE197274D700644E33 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BE7AEA2197274D700644E33 /* HomWorkOne */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7AEB7197274D700644E33 /* Images.xcassets */,
+				9BE7AEAE197274D700644E33 /* Main.storyboard */,
+				9BE7AEAB197274D700644E33 /* MXAppDelegate.h */,
+				9BE7AEAC197274D700644E33 /* MXAppDelegate.m */,
+				9BE7AED41972B3D000644E33 /* MXFifthViewController.h */,
+				9BE7AED51972B3D000644E33 /* MXFifthViewController.m */,
+				9BE7AEB1197274D700644E33 /* MXFirstViewController.h */,
+				9BE7AEB2197274D700644E33 /* MXFirstViewController.m */,
+				9BE7AEB4197274D700644E33 /* MXSecondViewController.h */,
+				9BE7AEB5197274D700644E33 /* MXSecondViewController.m */,
+				9BE7AEA3197274D700644E33 /* Supporting Files */,
+			);
+			path = HomWorkOne;
+			sourceTree = "<group>";
+		};
+		9BE7AEA3197274D700644E33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7AEA4197274D700644E33 /* HomWorkOne-Info.plist */,
+				9BE7AEA5197274D700644E33 /* InfoPlist.strings */,
+				9BE7AEA8197274D700644E33 /* main.m */,
+				9BE7AEAA197274D700644E33 /* HomWorkOne-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BE7AEC4197274D700644E33 /* HomWorkOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7AECA197274D700644E33 /* HomWorkOneTests.m */,
+				9BE7AEC5197274D700644E33 /* Supporting Files */,
+			);
+			path = HomWorkOneTests;
+			sourceTree = "<group>";
+		};
+		9BE7AEC5197274D700644E33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7AEC6197274D700644E33 /* HomWorkOneTests-Info.plist */,
+				9BE7AEC7197274D700644E33 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BE7AE98197274D700644E33 /* HomWorkOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE7AECE197274D700644E33 /* Build configuration list for PBXNativeTarget "HomWorkOne" */;
+			buildPhases = (
+				9BE7AE95197274D700644E33 /* Sources */,
+				9BE7AE96197274D700644E33 /* Frameworks */,
+				9BE7AE97197274D700644E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomWorkOne;
+			productName = HomWorkOne;
+			productReference = 9BE7AE99197274D700644E33 /* HomWorkOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BE7AEBC197274D700644E33 /* HomWorkOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE7AED1197274D700644E33 /* Build configuration list for PBXNativeTarget "HomWorkOneTests" */;
+			buildPhases = (
+				9BE7AEB9197274D700644E33 /* Sources */,
+				9BE7AEBA197274D700644E33 /* Frameworks */,
+				9BE7AEBB197274D700644E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE7AEC3197274D700644E33 /* PBXTargetDependency */,
+			);
+			name = HomWorkOneTests;
+			productName = HomWorkOneTests;
+			productReference = 9BE7AEBD197274D700644E33 /* HomWorkOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BE7AE91197274D700644E33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = longfei;
+				TargetAttributes = {
+					9BE7AEBC197274D700644E33 = {
+						TestTargetID = 9BE7AE98197274D700644E33;
+					};
+				};
+			};
+			buildConfigurationList = 9BE7AE94197274D700644E33 /* Build configuration list for PBXProject "HomWorkOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BE7AE90197274D700644E33;
+			productRefGroup = 9BE7AE9A197274D700644E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE7AE98197274D700644E33 /* HomWorkOne */,
+				9BE7AEBC197274D700644E33 /* HomWorkOneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BE7AE97197274D700644E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7AEB8197274D700644E33 /* Images.xcassets in Resources */,
+				9BE7AEA7197274D700644E33 /* InfoPlist.strings in Resources */,
+				9BE7AEB0197274D700644E33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE7AEBB197274D700644E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7AEC9197274D700644E33 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BE7AE95197274D700644E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7AEA9197274D700644E33 /* main.m in Sources */,
+				9BE7AED61972B3D000644E33 /* MXFifthViewController.m in Sources */,
+				9BE7AEB3197274D700644E33 /* MXFirstViewController.m in Sources */,
+				9BE7AEAD197274D700644E33 /* MXAppDelegate.m in Sources */,
+				9BE7AEB6197274D700644E33 /* MXSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE7AEB9197274D700644E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7AECB197274D700644E33 /* HomWorkOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BE7AEC3197274D700644E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE7AE98197274D700644E33 /* HomWorkOne */;
+			targetProxy = 9BE7AEC2197274D700644E33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BE7AEA5197274D700644E33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE7AEA6197274D700644E33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BE7AEAE197274D700644E33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE7AEAF197274D700644E33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE7AEC7197274D700644E33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE7AEC8197274D700644E33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BE7AECC197274D700644E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BE7AECD197274D700644E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BE7AECF197274D700644E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomWorkOne/HomWorkOne-Prefix.pch";
+				INFOPLIST_FILE = "HomWorkOne/HomWorkOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BE7AED0197274D700644E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomWorkOne/HomWorkOne-Prefix.pch";
+				INFOPLIST_FILE = "HomWorkOne/HomWorkOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9BE7AED2197274D700644E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomWorkOne.app/HomWorkOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomWorkOne/HomWorkOne-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HomWorkOneTests/HomWorkOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9BE7AED3197274D700644E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomWorkOne.app/HomWorkOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomWorkOne/HomWorkOne-Prefix.pch";
+				INFOPLIST_FILE = "HomWorkOneTests/HomWorkOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BE7AE94197274D700644E33 /* Build configuration list for PBXProject "HomWorkOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE7AECC197274D700644E33 /* Debug */,
+				9BE7AECD197274D700644E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE7AECE197274D700644E33 /* Build configuration list for PBXNativeTarget "HomWorkOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE7AECF197274D700644E33 /* Debug */,
+				9BE7AED0197274D700644E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BE7AED1197274D700644E33 /* Build configuration list for PBXNativeTarget "HomWorkOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE7AED2197274D700644E33 /* Debug */,
+				9BE7AED3197274D700644E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BE7AE91197274D700644E33 /* Project object */;
+}
