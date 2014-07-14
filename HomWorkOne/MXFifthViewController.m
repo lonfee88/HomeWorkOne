@@ -82,6 +82,7 @@
     }
     else if (theTextField == self.password){
         [self.password resignFirstResponder];
+        [self login:nil];
     }
     return YES;
 }
