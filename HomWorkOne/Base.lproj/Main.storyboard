@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--First View Controller - First-->
+        <!--First View Controller - 首页-->
         <scene sceneID="W3I-pn-N6e">
             <objects>
-                <viewController title="First" id="CZ4-MO-1fc" customClass="MXFirstViewController" sceneMemberID="viewController">
+                <viewController title="首页" id="CZ4-MO-1fc" customClass="MXFirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s9W-kb-ARv"/>
                         <viewControllerLayoutGuide type="bottom" id="dtj-EO-iXF"/>
@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
         </scene>
-        <!--Second View Controller - Second-->
+        <!--Second View Controller - 微淘-->
         <scene sceneID="ot8-2e-RuS">
             <objects>
-                <viewController title="Second" id="QUy-BD-bpt" customClass="MXSecondViewController" sceneMemberID="viewController">
+                <viewController title="微淘" id="QUy-BD-bpt" customClass="MXSecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FgS-U6-xeU"/>
                         <viewControllerLayoutGuide type="bottom" id="stI-4g-hlJ"/>
@@ -53,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="653" y="514"/>
         </scene>
-        <!--Third View Controller - Third-->
+        <!--View Controller - 发现-->
         <scene sceneID="uNi-Ed-i8x">
             <objects>
-                <viewController id="hj0-v0-8vR" userLabel="Third View Controller - Third" sceneMemberID="viewController">
+                <viewController title="发现" id="hj0-v0-8vR" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="flA-db-LEY"/>
                         <viewControllerLayoutGuide type="bottom" id="s9g-ii-Xdz"/>
@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="661" y="1154"/>
         </scene>
-        <!--Fourth View Controller - Fourth-->
+        <!--View Controller - 购物车-->
         <scene sceneID="zSK-at-mPJ">
             <objects>
-                <viewController id="DqA-KZ-r1v" userLabel="Fourth View Controller - Fourth" sceneMemberID="viewController">
+                <viewController title="购物车" id="DqA-KZ-r1v" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="H0L-NU-KTA"/>
                         <viewControllerLayoutGuide type="bottom" id="wL3-aT-n0O"/>
@@ -109,10 +109,10 @@
             </objects>
             <point key="canvasLocation" x="656" y="1853"/>
         </scene>
-        <!--Fifth View Controller - Fifth-->
+        <!--Fifth View Controller - 我的淘宝-->
         <scene sceneID="Sbf-ZG-uWc">
             <objects>
-                <viewController id="iNE-3d-U8T" userLabel="Fifth View Controller - Fifth" customClass="MXFifthViewController" sceneMemberID="viewController">
+                <viewController title="我的淘宝" id="iNE-3d-U8T" customClass="MXFifthViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3YA-pP-Smr"/>
                         <viewControllerLayoutGuide type="bottom" id="lFB-sY-Gj9"/>
