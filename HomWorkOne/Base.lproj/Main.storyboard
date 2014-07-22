@@ -121,8 +121,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="手机号/会员名" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Baw-3g-GqT">
-                                <rect key="frame" x="20" y="49" width="280" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="taobao" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Baw-3g-GqT">
+                                <rect key="frame" x="20" y="68" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
@@ -130,8 +130,8 @@
                                     <outlet property="delegate" destination="iNE-3d-U8T" id="xSa-Ys-ZO3"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Iw-qe-j29">
-                                <rect key="frame" x="20" y="87" width="280" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="123" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Iw-qe-j29">
+                                <rect key="frame" x="20" y="106" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
@@ -140,7 +140,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFB-fl-8I8">
-                                <rect key="frame" x="20" y="125" width="280" height="30"/>
+                                <rect key="frame" x="20" y="144" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="登录">
@@ -151,19 +151,23 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="账户" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hb9-hh-hbZ">
-                                <rect key="frame" x="139" y="20" width="42" height="21"/>
+                                <rect key="frame" x="127" y="27" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="正确的账户名和密码分别为: 账户：taobao 密码：123" translatesAutoresizingMaskIntoConstraints="NO" id="Kc8-QY-HMc">
-                                <rect key="frame" x="40" y="164" width="240" height="117"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zxp-yK-5vu">
+                                <rect key="frame" x="188" y="20" width="123" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <segments>
+                                    <segment title="日"/>
+                                    <segment title="夜"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeTheme:" destination="iNE-3d-U8T" eventType="valueChanged" id="mjc-fO-PZV"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -171,6 +175,7 @@
                     <connections>
                         <outlet property="loginBtn" destination="HFB-fl-8I8" id="SwW-cq-VQa"/>
                         <outlet property="password" destination="2Iw-qe-j29" id="TN9-va-sYW"/>
+                        <outlet property="themeSegment" destination="zxp-yK-5vu" id="HAH-SV-R8L"/>
                         <outlet property="userName" destination="Baw-3g-GqT" id="n9F-rx-bKw"/>
                     </connections>
                 </viewController>

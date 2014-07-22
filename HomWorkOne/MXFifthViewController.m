@@ -9,6 +9,7 @@
 #import "MXFifthViewController.h"
 
 @interface MXFifthViewController ()
+@property (weak, nonatomic) IBOutlet UISegmentedControl *themeSegment;
 @property (weak, nonatomic) IBOutlet UITextField *userName;
 @property (weak, nonatomic) IBOutlet UITextField *password;
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
@@ -17,6 +18,33 @@
 @end
 
 @implementation MXFifthViewController
+
+//切换白天模式和夜间模式
+//TODO:
+// 1. 主题配置放入配置文件
+// 2. 切换主题全局生效
+- (IBAction)changeTheme:(id)sender {
+    if(sender == self.themeSegment){
+        if(self.themeSegment.selectedSegmentIndex == 0){
+            [self.view setBackgroundColor:[UIColor whiteColor]];
+//            for(UIView *subView in [self.view subviews]){
+//                [subView setBackgroundColor:[UIColor whiteColor]];
+//            }
+            [self.userName setBackgroundColor:[UIColor whiteColor]];
+            [self.password setBackgroundColor:[UIColor whiteColor]];
+            [self.loginBtn setBackgroundColor:[UIColor whiteColor]];
+        }
+        else{
+            [self.view setBackgroundColor:[UIColor darkGrayColor]];
+//            for(UIView *subView in [self.view subviews]){
+//                [subView setBackgroundColor:[UIColor lightGrayColor]];
+//            }
+            [self.userName setBackgroundColor:[UIColor lightGrayColor]];
+            [self.password setBackgroundColor:[UIColor lightGrayColor]];
+            [self.loginBtn setBackgroundColor:[UIColor lightGrayColor]];
+        }
+    }
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

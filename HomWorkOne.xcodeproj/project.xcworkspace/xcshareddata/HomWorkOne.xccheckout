@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2D2F9685-A337-437C-ADE4-AF1B7A68B3E0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HomWorkOne</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C58CCB1F-E7F4-44E4-BBC1-DADA8ECF0257</key>
+		<string>ssh://github.com/lonfee88/HomeWorkOne.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HomWorkOne.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C58CCB1F-E7F4-44E4-BBC1-DADA8ECF0257</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/lonfee88/HomeWorkOne.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C58CCB1F-E7F4-44E4-BBC1-DADA8ECF0257</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C58CCB1F-E7F4-44E4-BBC1-DADA8ECF0257</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HomeWorkOne</string>
+		</dict>
+	</array>
+</dict>
+</plist>
